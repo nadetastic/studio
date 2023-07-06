@@ -96,7 +96,7 @@ export default function ItemCardB(props) {
           height="unset"
           shrink="0"
           size="small"
-          value={product?.rat}
+          value={product?.rating}
           maxValue={5}
           {...getOverrideProps(overrides, "Rating")}
         ></Rating>

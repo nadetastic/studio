@@ -26,7 +26,8 @@ type Product @model @auth(rules: [{allow: public}]) {
   price: Float
   current_stock: Int
   image: String
-  rat: Float
   style: String
   categoryID: ID! @index(name: "byCategory")
+  rating: Float
 }
+ 

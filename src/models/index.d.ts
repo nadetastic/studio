@@ -115,9 +115,9 @@ type EagerProduct = {
   readonly price?: number | null;
   readonly current_stock?: number | null;
   readonly image?: string | null;
-  readonly rat?: number | null;
   readonly style?: string | null;
   readonly categoryID: string;
+  readonly rating?: number | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
 }
@@ -133,9 +133,9 @@ type LazyProduct = {
   readonly price?: number | null;
   readonly current_stock?: number | null;
   readonly image?: string | null;
-  readonly rat?: number | null;
   readonly style?: string | null;
   readonly categoryID: string;
+  readonly rating?: number | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
 }

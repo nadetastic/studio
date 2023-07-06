@@ -310,13 +310,6 @@ export const schema = {
                     "isRequired": false,
                     "attributes": []
                 },
-                "rat": {
-                    "name": "rat",
-                    "isArray": false,
-                    "type": "Float",
-                    "isRequired": false,
-                    "attributes": []
-                },
                 "style": {
                     "name": "style",
                     "isArray": false,
@@ -329,6 +322,13 @@ export const schema = {
                     "isArray": false,
                     "type": "ID",
                     "isRequired": true,
+                    "attributes": []
+                },
+                "rating": {
+                    "name": "rating",
+                    "isArray": false,
+                    "type": "Float",
+                    "isRequired": false,
                     "attributes": []
                 },
                 "createdAt": {
@@ -386,5 +386,5 @@ export const schema = {
     "enums": {},
     "nonModels": {},
     "codegenVersion": "3.4.4",
-    "version": "2543fa36884bb1be85540725856a55aa"
+    "version": "7f0ce66601ee258e7304c6058892136f"
 };
